@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+/*========= HOME PAGE =======*/
+.body-home {
+  background-image: url(images/home-page-background.jpg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-attachment: fixed;
+}
+.body-home h1 {
+  padding-bottom: 10px;
+  text-align: center;
+}
+h1 {
+  color: white;
+  text-align: center;
+  padding-top: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h2 {
+  color: white;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.home-page-items-style {
+  text-align: center;
+  font-size: x-large;
+  font-weight: 800;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  border: 5px solid wheat;
+  margin: auto;
+  padding: 10px;
+  width: 60%;
+}
+.home-page-items-style h1 {
+  color: whitesmoke;
+}
+/*========= FOOD PAGE =======*/
+
+.food {
+  background-image: url(images/background-pages.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.navbar {
+  background: rgba(255, 255, 255, 0.788);
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 130;
+}
+.navbar i {
+  color: red;
+  float: left;
+  padding: 10px;
+  padding-left: 30px;
+  padding-top: 15px;
+}
+.logo {
+  padding: 10px;
+}
+#starter {
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 50%;
+  height: 400;
+  text-decoration: none;
+  border: solid wheat 5px;
+}
+#starter h2 {
+  color: black;
+  font-style: italic;
+  padding-top: 10px;
+}
+
+#starter img {
+  padding: 20px;
+}
+.food h1 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
+}
+/*========= Food Items PAGE =======*/
+.menu-page {
+  background-image: url(images/menu-background.jpg);
+  background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.menu-page h1 {
+  padding-top: 130px;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#food-item {
+  padding-top: 40px;
+  width: 90%;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+#food-item h1 {
+  top: 0;
+}
+#food-item img {
+  top: 0;
+}
+.price {
+  float: left;
+  padding-left: 90px;
+  font-size: larger;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.serving {
+  padding-left: 500px;
+  font-size: larger;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#food-item p {
+  padding: 20px;
+  font-size: larger;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#food-item h2 {
+  color: whitesmoke;
+  font-weight: 900;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#food-item li {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 900;
+  font-size: 23px;
+}
+#food-item input {
+  width: 100px;
+  height: 40px;
+  text-align: center;
+  color: black;
+  background-color: lightskyblue;
+}
+textarea {
+  width: 80%;
+  height: 40px;
+  background-color: wheat;
+  color: black;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+/*========= Thank You PAGE =======*/
+#thank-you {
+  padding-top: 150px;
+  width: 70%;
+  text-transform: uppercase;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: xx-large;
+  background-color: rgba(255, 255, 255, 0.4);
+}
+#thank-you img {
+  padding-left: 20px;
+  padding-bottom: 60px;
+  padding-right: 20px;
+}
